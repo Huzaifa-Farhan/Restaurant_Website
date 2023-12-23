@@ -223,7 +223,33 @@ header .content label {
     font-size: 17px;
 }
 
+header #content_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(img/Background_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
 
+header #content_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(img/Background_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
 
 /* Chefs */
 
@@ -272,6 +298,20 @@ header .content label {
 
 .chef-card .chef-body p {
     font-size: 15px;
+}
+
+header #content_3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(img/Background_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
 }
 
 /* menu */
@@ -351,6 +391,19 @@ header .content label {
     font-weight: bold;
     font-size: 18px;
     color: red;
+}
+header #content_4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)), url(img/Background_4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
 }
 
 
@@ -768,7 +821,6 @@ form .form-content input:valid~span::before {
     }
 
 }
-
 
 @media (max-width: 450px) {
     .menu-box {
